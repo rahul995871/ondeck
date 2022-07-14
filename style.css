@@ -1,0 +1,157 @@
+li{
+    list-style-type: none;
+}
+@font-face {
+    font-family: robo;
+    src: url("/font/Inter-Light.ttf");
+}
+*{padding: 0px;margin: 0px;box-sizing: border-box;font-family: robo;}
+.container{
+    background-color: #f3ede5;
+    
+}
+nav img{height: 100px;width: 100px;z-index: 7;}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 15px;
+    position: relative;
+    padding-bottom: 20px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 10px 10px;
+}
+nav ul{
+    display: flex;
+    /* gap: 30px; */
+    font-size: 13px;
+    flex-wrap: wrap;
+}
+button:first-child{
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn2{
+    border: none;
+    outline: none;
+    background-color: #133416;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.con1 u{
+color: #f6b200;
+text-decoration: none;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 35px;
+}
+.con2{
+height: 300px;
+width: 250px;
+}
+.con2 img{
+    height: 100%;
+    width: 100%;
+}
+.con1{
+flex-basis: 30%;
+}
+.con-cen{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.con-cen ul{
+    display: flex;
+    gap: 17px;
+    height: 30px;
+    align-items: baseline;
+}
+.con-cen ul li img{
+    
+width: 20px;
+    
+height: 20px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container3 ul{
+    display: flex;
+    /* gap: 40px; */
+    width: 66%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.container3 ul li img{
+    
+height: 140px;
+    
+width: 140px;
+}
+.ham{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+   nav ul li{
+    display: none;
+   }
+   .con2{
+    display: none;
+   }
+   .container2{
+    display: inline-block;
+    padding: 0px 20px;
+   }
+   .container2 p{
+    padding: 14px 0px;
+
+   }
+   .ham{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    transition: all 0.5s;
+    padding-top: 50px;
+    
+   }
+   .dis{
+    /* display: inline-block; */
+  
+        position: fixed;
+        left: -50%;
+    
+   }
+   nav img{
+    position: fixed;
+    
+    left: 0;
+   }
+   .ham div{
+
+padding: 20px 35px;
+
+margin-top: 10px;
+
+}
+  
+  }
+  
