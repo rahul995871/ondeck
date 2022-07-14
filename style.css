@@ -8,6 +8,7 @@ li{
 *{padding: 0px;margin: 0px;box-sizing: border-box;font-family: robo;}
 .container{
     background-color: #f3ede5;
+    height:100vh;
     
 }
 nav img{height: 100px;width: 100px;z-index: 7;}
