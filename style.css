@@ -125,7 +125,7 @@ width: 140px;
     display: inline-block;
     position: fixed;
     top: 0;
-    left: 0;
+    left: -50%;
     background-color: white;
     width: 50%;
     height: 100vh;
@@ -137,7 +137,7 @@ width: 140px;
     /* display: inline-block; */
   
         position: fixed;
-        left: -50%;
+        left: 0;
     
    }
    nav img{
